@@ -1,0 +1,3 @@
+- Book-ChatGPT CodeX - https://chatgpt.com/c/6844dda0-25c0-800d-90bb-1805192d8e49
+- Research-PRD’s Role in the New AI Development Pipeline - https://chatgpt.com/c/6844fd9f-813c-800d-806e-180f334ac191
+- Hands-On-Large-Language-Models - https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
