@@ -50,14 +50,14 @@ Refer to `project_root/ui/package.json` for exact dependency versions.
    *Definition of metadata header section:*
 
    ```markdown
-   # App: {{Application Name}}
-   # Package: {{package}}
-   # File: {{file name}}
-   # Version: sematic versioning starting at 0.1.0
-   # Author: {{author}}
-   # Date: {Timestamp when the change was made}
-   # Description:  level 5 documentation of the class or function.  Document each method or function in the file.  
-   #
+   // App: {{Application Name}}
+   // Package: {{package}}
+   // File: {{file name}}
+   // Version: sematic versioning starting at 0.1.0
+   // Author: {{author}}
+   // Date: {Timestamp when the change was made}
+   // Description:  level 5 documentation of the class or function.  Document each method or function in the file.  
+   //
    ```
 
 3. **Test-Driven Development (TDD)**

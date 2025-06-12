@@ -1,0 +1,25 @@
+# App: Client Profile Module
+# Package: db
+# File: docker-compose.yml
+# Version: 0.0.1
+# Author: Bobwares
+# Date: 2025-06-10T00:00:00Z
+# Description: Compose file for PostgreSQL service.
+
+version: "3.9"
+services:
+  db:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $POSTGRES_USER -d $POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+volumes:
+  db-data:

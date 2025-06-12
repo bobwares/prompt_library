@@ -50,13 +50,13 @@ This is a NestJS + TypeScript REST API that connects to an ORM layer. Its respon
    *Definition of metadata header section:*
 
    ```markdown
-   # App: {{Application Name}}
-   # Package: {{package}}
-   # File: {{file name}}
-   # Version: sematic versioning starting at 0.1.0
-   # Author: {{author}}
-   # Date: {Timestamp when the change was made}
-   # Description:  level 5 documentation of the class or function.  Document each method or function in the file.  
+   // App: {{Application Name}}
+   // Package: {{package}}
+   // File: {{file name}}
+   // Version: sematic versioning starting at 0.1.0
+   // Author: {{author}}
+   // Date: {Timestamp when the change was made}
+   // Description:  level 5 documentation of the class or function.  Document each method or function in the file.  
    #
    ```
 
@@ -68,7 +68,6 @@ This is a NestJS + TypeScript REST API that connects to an ORM layer. Its respon
     * Maintain a minimum 80% coverage.
     * npm run test
     * When creating new REST endpoints, create .http test for the resource.
-
 
 
 4. **Use of Modern Language & Framework Features**
@@ -178,7 +177,7 @@ DB: <database type and connection method>
 
 ## 7. Sample Prompt
 
-```
+```markdown
 ### Context
 User management module to handle registration and retrieval.
 Tech: NestJS, TypeScript, TypeORM
@@ -203,8 +202,6 @@ Implement `users.controller.ts` and `users.service.ts` under `src/users/`:
 ### Output Format
 - Three code fences: controller, service, DTOs plus two fences for tests
 ```
-
-Keeping prompts precise and consistent ensures Codex reliably generates back-end code that adheres to project standards, conventions, and architectural requirements.
 
 ### Examples
 
