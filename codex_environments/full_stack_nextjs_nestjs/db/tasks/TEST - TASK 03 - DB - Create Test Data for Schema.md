@@ -6,9 +6,6 @@
 
 ## Task to Test
 
-## Task Simulator
-
-- simulate an ai coding agent.  run test.
 
 ## Inputs
 
